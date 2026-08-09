@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sporting FC | Sito Ufficiale</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f8ff;
+      color: #123;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0057b8, #003b80);
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: #0057b8;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 12px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    section h2 {
+      color: #0057b8;
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      color: #003b80;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+
+    .rosa {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .giocatore {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-top: 5px solid #0057b8;
+    }
+
+    .numero {
+      font-size: 30px;
+      font-weight: bold;
+      color: #0057b8;
+    }
+
+    .nome {
+      margin-top: 8px;
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 15px;
+    }
+
+    .info-box {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .info-box strong {
+      color: #0057b8;
+    }
+
+    .instagram {
+      text-align: center;
+      background: #0057b8;
+      color: white;
+      border-radius: 20px;
+      padding: 35px 20px;
+    }
+
+    .instagram h2 {
+      color: white;
+    }
+
+    .instagram a {
+      display: inline-block;
+      margin-top: 15px;
+      background: white;
+      color: #0057b8;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #003b80;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 36px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SPORTING FC</h1>
+    <p>🔵⚪ La nostra squadra, la nostra passione.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#rosa">Rosa</a>
+    <a href="#info">Info</a>
+    <a href="#social">Instagram</a>
+  </nav>
+
+  <section id="home" class="hero">
+    <h2>Benvenuto nello Sporting FC</h2>
+    <p>La nostra squadra, la nostra passione.</p>
+  </section>
+
+  <section id="rosa">
+    <h2>👥 La nostra rosa</h2>
+
+    <div class="rosa">
+
+      <div class="giocatore">
+        <div class="numero">1</div>
+        <div class="nome">Sarracino</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">4</div>
+        <div class="nome">Fontanella</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">2</div>
+        <div class="nome">D'Alterio</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">5</div>
+        <div class="nome">Liquori</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">10</div>
+        <div class="nome">Cigliano</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">11</div>
+        <div class="nome">Pescatore</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">22</div>
+        <div class="nome">Picardi</div>
+      </div>
+
+      <div class="giocatore">
+        <div class="numero">18</div>
+        <div class="nome">Pirozzi ©</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="info">
+    <h2>👕 Colori, maglie e le nostre info</h2>
+
+    <div class="info">
+
+      <div class="info-box">
+        <strong>📍 Città</strong>
+        <p>Giugliano in Campania</p>
+      </div>
+
+      <div class="info-box">
+        <strong>🔵 Colori</strong>
+        <p>Blu</p>
+      </div>
+
+      <div class="info-box">
+        <strong>👕 Maglia</strong>
+        <p>Blu-Bianco</p>
+      </div>
+
+      <div class="info-box">
+        <strong>🏟️ Campo</strong>
+        <p>Crazy Ball</p>
+      </div>
+
+      <div class="info-box">
+        <strong>📋 Modulo</strong>
+        <p>3-2-2</p>
+      </div>
+
+      <div class="info-box">
+        <strong>⚽ Disciplina</strong>
+        <p>8v8</p>
+      </div>
+
+      <div class="info-box">
+        <strong>©️ Capitano</strong>
+        <p>Pirozzi</p>
+      </div>
+
+      <div class="info-box">
+        <strong>👔 Presidente</strong>
+        <p>Pirozzi</p>
+      </div>
+
+      <div class="info-box">
+        <strong>🥈 Vice Capitano</strong>
+        <p>Picardi</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="instagram">
+      <h2>📸 Seguici su Instagram</h2>
+      <p>Scopri le nostre partite, foto e novità!</p>
+
+      <!-- SOSTITUISCI IL LINK CON IL VOSTRO PROFILO -->
+      <a href="https://www.instagram.com/" target="_blank">
+        Vai su Instagram
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>🔵⚪ Sporting FC</p>
+    <p>La nostra squadra, la nostra passione.</p>
+  </footer>
+
+</body>
+</html>
